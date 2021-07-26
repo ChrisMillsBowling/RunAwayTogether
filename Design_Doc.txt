@@ -1,0 +1,26 @@
+Run Away Together Design Document.
+
+Server C.
+Client Python.
+
+Overview: 
+Servers are a c based and multithreaded to allow for multiple connections simultaneously! Server will take user input and increment mutex'd values that relate to the orientation of the player. The game itself will run on the server on it's own thread. The game will be in charge of all player's states and the obstical states. The game is an infinte runner with obstacles to jump over and will destroy players who hit them!
+
+Python Client:
+	-Creates a user interface with TKinter
+	-Allows for users to join a server with an IP Address.
+	-Save the last entered IP address for ease of use.
+	-Controls: WASD - Movement, Space - Jump
+	-Displays server's time and race progress.
+	-Display's pointer leaderboard for all players.
+	-Has commands for the players to start the match.
+	-Has a start, end, and score screen game states for a game loop.
+
+C Server:
+	-Allows for multiple users to connect on their own threads.
+	-Server will require users to provide a password!
+	-Server will log the scores of each match and incriment the number of races won for a player.
+	-Clients can request server for the above leaderboard.
+	-Server will mutex the critical sections of the player postions.
+	-Decide: Networked packets are either user inputs or user positions?
+	
