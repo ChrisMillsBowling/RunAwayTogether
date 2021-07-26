@@ -4,7 +4,9 @@ Server C.
 Client Python.
 
 Overview: 
-Servers are a c based and multithreaded to allow for multiple connections simultaneously! Server will take user input and increment mutex'd values that relate to the orientation of the player. The game itself will run on the server on it's own thread. The game will be in charge of all player's states and the obstical states. The game is an infinte runner with obstacles to jump over and will destroy players who hit them!
+Servers are a c based and multithreaded to allow for multiple connections simultaneously! 
+Server will take user input and increment mutex'd values that relate to the orientation of the player. 
+The game itself will run on the server on it's own thread. The game will be in charge of all player's states and the obstical states. The game is an infinte runner with obstacles to jump over and will destroy players who hit them!
 
 Python Client:
 	-Creates a user interface with TKinter
