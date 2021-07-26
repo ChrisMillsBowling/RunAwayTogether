@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libC_tests.so -o libC_tests.so CMakeFiles/C_tests.dir/tests/main_tests.c.o CMakeFiles/C_tests.dir/tests/game_server_tests.c.o 

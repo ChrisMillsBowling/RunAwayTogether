@@ -1,0 +1,5 @@
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/edit_cache.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/C_exe.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/rebuild_cache.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/C_submission.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/C_tests.dir

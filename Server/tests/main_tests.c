@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <CUnit/CUnit.h>
 #include <CUnit/Automated.h>
-#include <CUnit/Basic.h>#include <stdio.h>
+#include <CUnit/Basic.h>
+#include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 #include <CUnit/Automated.h>
@@ -20,7 +22,7 @@ main(int argc, char **argv)
         return CU_get_error();
     }
 
-    CU_pSuite sm_suite = CU_add_suite("state_machine_tests", NULL, NULL);
+    CU_pSuite sm_suite = CU_add_suite("game_server_tests", NULL, NULL);
 
     srand(time(NULL));
 
@@ -30,7 +32,7 @@ main(int argc, char **argv)
         return CU_get_error();
     }
     
-    if (NULL == CU_add_test(sm_suite, "Section 3.1.15", test_3_1_15))
+    if (NULL == CU_add_test(sm_suite, "Base tests for Game Server", test_start_and_close))
     {
         CU_cleanup_registry();
         return CU_get_error();

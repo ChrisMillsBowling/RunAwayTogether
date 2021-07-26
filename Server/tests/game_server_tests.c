@@ -10,7 +10,7 @@
 
 bool close_test()
 {
-	ret = main(2, "Close_Test");
+	int ret = main_test("close_test");
 	CU_ASSERT_EQUAL(ret, 0);
 	return true;
 }
