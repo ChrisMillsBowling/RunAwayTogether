@@ -1,21 +1,20 @@
+#include "game_server_tests.h"
 
 
-#include <CUnit/CUnit.h>
-#include <stdbool.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <unistd.h>
-
-#include "../include/server.h"
-
-bool close_test()
+/**
+ * @brief This test opens then, shuts down the server.
+ * 
+ * @return true - no problems detected.
+ * @return false - failed
+ */
+bool open_close_test()
 {
-	int ret = main_test("close_test");
-	CU_ASSERT_EQUAL(ret, 0);
+    CU_ASSERT_EQUAL(Start_Server(), true);
+    CU_ASSERT_EQUAL(Shutdown_Server(), true);
 	return true;
 }
 
 void test_start_and_close()
 {
-	CU_ASSERT(close_test());
+	CU_ASSERT(open_close_test());
 }

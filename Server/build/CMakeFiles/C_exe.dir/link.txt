@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/C_exe.dir/tests/main_tests.c.o CMakeFiles/C_exe.dir/src/server.c.o -o C_exe  -Wl,-rpath,/home/student/Documents/RunAwayTogether/Server/build libC_submission.so libC_tests.so -lcunit 

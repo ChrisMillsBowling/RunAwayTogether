@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libC_submission.so -o libC_submission.so CMakeFiles/C_submission.dir/src/server.c.o 

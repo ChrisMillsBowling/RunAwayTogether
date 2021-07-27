@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/game_server_exe.dir/src/main.c.o CMakeFiles/game_server_exe.dir/src/server.c.o CMakeFiles/game_server_exe.dir/tests/main_tests.c.o  -o game_server_exe  -Wl,-rpath,/17D/RunAwayTogether/Server/build libgame_server_submission.so libgame_server_tests.so -lcunit 

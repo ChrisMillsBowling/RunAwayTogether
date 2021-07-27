@@ -1,20 +1,8 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <CUnit/CUnit.h>
-#include <CUnit/Automated.h>
-#include <CUnit/Basic.h>
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <CUnit/Automated.h>
-#include <CUnit/Basic.h>
-#include <CUnit/CUnit.h>
 
-#include "game_server_tests.h"
+#include "main_tests.h"
 
-int
-main(int argc, char **argv)
+
+int main_tests()
 {
     // Init CUnit test registry
     if (CUE_SUCCESS != CU_initialize_registry())
@@ -39,12 +27,6 @@ main(int argc, char **argv)
     }
 
     CU_basic_set_mode(CU_BRM_VERBOSE);
-
-    if (argc >= 1)
-    {
-        printf("%s\n", argv[0]);
-        CU_set_output_filename(argv[0]);
-    }
 
     CU_automated_enable_junit_xml(CU_TRUE);
     CU_automated_run_tests();
