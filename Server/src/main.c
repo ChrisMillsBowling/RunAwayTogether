@@ -1,10 +1,17 @@
-#include "../tests/game_server_tests.h"
+#include "../tests/main_tests.h"
 #include <stdio.h>
+#include <CUnit/CUError.h>
 
 int main(int argc, char **argv)
 {
-    #ifdef DEBUG
+#   ifdef DEBUG
+        printf("\nThis is a DEBUG compilation!\n");
+#   endif
 
-    #endif
-
+    int error_code = main_tests();
+    if (CUE_SUCCESS != error_code)
+    {
+        return error_code;
+    }
+    return 0;
 }

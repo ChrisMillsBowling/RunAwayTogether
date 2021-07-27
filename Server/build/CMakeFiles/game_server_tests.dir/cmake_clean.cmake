@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/game_server_tests.dir/tests/game_server_tests.c.o"
+  "CMakeFiles/game_server_tests.dir/tests/game_server_tests.c.o.d"
   "CMakeFiles/game_server_tests.dir/tests/main_tests.c.o"
+  "CMakeFiles/game_server_tests.dir/tests/main_tests.c.o.d"
   "libgame_server_tests.pdb"
   "libgame_server_tests.so"
 )

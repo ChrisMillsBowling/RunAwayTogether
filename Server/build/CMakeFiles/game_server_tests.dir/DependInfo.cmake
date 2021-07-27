@@ -1,21 +1,15 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/17D/RunAwayTogether/Server/tests/game_server_tests.c" "/17D/RunAwayTogether/Server/build/CMakeFiles/game_server_tests.dir/tests/game_server_tests.c.o"
-  "/17D/RunAwayTogether/Server/tests/main_tests.c" "/17D/RunAwayTogether/Server/build/CMakeFiles/game_server_tests.dir/tests/main_tests.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_C
-  "game_server_tests_EXPORTS"
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/student/Documents/RunAwayTogether/Server/tests/game_server_tests.c" "CMakeFiles/game_server_tests.dir/tests/game_server_tests.c.o" "gcc" "CMakeFiles/game_server_tests.dir/tests/game_server_tests.c.o.d"
+  "/home/student/Documents/RunAwayTogether/Server/tests/main_tests.c" "CMakeFiles/game_server_tests.dir/tests/main_tests.c.o" "gcc" "CMakeFiles/game_server_tests.dir/tests/main_tests.c.o.d"
   )
 
 # Targets to which this target links.

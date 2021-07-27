@@ -1,5 +1,5 @@
-/17D/RunAwayTogether/Server/build/CMakeFiles/rebuild_cache.dir
-/17D/RunAwayTogether/Server/build/CMakeFiles/game_server_exe.dir
-/17D/RunAwayTogether/Server/build/CMakeFiles/game_server_tests.dir
-/17D/RunAwayTogether/Server/build/CMakeFiles/edit_cache.dir
-/17D/RunAwayTogether/Server/build/CMakeFiles/game_server_submission.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/edit_cache.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/rebuild_cache.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/game_server_submission.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/game_server_exe.dir
+/home/student/Documents/RunAwayTogether/Server/build/CMakeFiles/game_server_tests.dir

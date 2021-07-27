@@ -1,1 +1,1 @@
-/usr/bin/cc -fPIC   -shared -Wl,-soname,libgame_server_submission.so -o libgame_server_submission.so CMakeFiles/game_server_submission.dir/src/server.c.o 
+/usr/bin/cc -fPIC -shared -Wl,-soname,libgame_server_submission.so -o libgame_server_submission.so CMakeFiles/game_server_submission.dir/src/server.c.o 
